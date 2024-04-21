@@ -10,7 +10,7 @@ The UI supports changing the language and theme of the application.
 
 ## Getting Started
 
-* To clone repository and install required libs use commands:
+To clone repository and install required libs use commands:
 ```
   git clone https://github.com/HawerPL/yt-downloader.git
   cd yt-downloader
@@ -18,14 +18,14 @@ The UI supports changing the language and theme of the application.
 ```
 ### Executing program
 
-* To run program use command:
+To run program use command:
 ```
   python main.py
 ```
 
 ## Help
 
-### Description for settings
+### Description for settings (confi.py)
 | Settings | Default Value | Available values                      | Description                |
 |----------| ----------- |---------------------------------------|----------------------------|
 | LANGUAGE | EN | EN, PL                                | Language for app           |
