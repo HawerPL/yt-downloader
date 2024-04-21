@@ -1,6 +1,6 @@
-from tkinter import ttk
+import os.path
+import subprocess
 from urllib.parse import urlparse
-
 from pytube import YouTube
 import customtkinter as ctk
 
@@ -32,7 +32,6 @@ class UrlFrame(ctk.CTkFrame):
             result = urlparse(url)
             self.master.video = VideoFrame(self.master, url)
             self.master.video.grid(row=1, column=0, padx=10, pady=10, sticky=ctk.NSEW)
-
         except ValueError:
             return False
 
@@ -43,8 +42,9 @@ def download_video(yt, extension, file_type, abr, resolution):
     else:
         stream = yt.streams.filter(mime_type=extension, resolution=resolution).first()
     extension_name = extension.split("/")[1]
-    stream.download(filename=f"{yt.title}{extension_name}")
-    return True
+    stream.download(filename=f"{yt.title} - {file_type}.{extension_name}")
+    current_path = os.path.curdir
+    subprocess.Popen(f'explorer /select, "{current_path}"')
 
 
 class VideoFrame(ctk.CTkFrame):
@@ -53,7 +53,6 @@ class VideoFrame(ctk.CTkFrame):
         super().__init__(master)
 
         yt = YouTube(url)
-        print(yt.title)
 
         self.columnconfigure(0, weight=1)
         self.columnconfigure(1, weight=2)
