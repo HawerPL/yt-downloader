@@ -36,9 +36,13 @@ To run program use command:
   python main.py
 ```
 
+### Executable program
+
+To create executable program use commands CustomTkinter docs <a href=https://customtkinter.tomschimansky.com/documentation/packaging>Windows PyInstaller</a>
+
 ## Help
 
-### Description for settings (confi.py)
+### Description for settings (config.py)
 | Settings | Default Value | Available values                      | Description                |
 |----------| ----------- |---------------------------------------|----------------------------|
 | LANGUAGE | EN | EN, PL                                | Language for app           |
