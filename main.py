@@ -243,8 +243,8 @@ class App(ctk.CTk):
         _ = translations.gettext
 
         self.title("YouTube downloader")
-        self.geometry(config.DEFAULT_GEOMETRY)
-        ctk.set_appearance_mode(config.DEFAULT_MODE)
+        self.geometry(config.GEOMETRY)
+        ctk.set_appearance_mode(config.MODE)
 
         self.navigation = NavFrame(self)
         self.navigation.grid_rowconfigure(0, weight=1)
