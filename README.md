@@ -5,9 +5,19 @@ Simple desktop app to download audio or video from YouTube.
 ## Description
 
 The app allows a public YouTube video to be downloaded in the format of your choice based on the URL provided. 
-
+<div align="center">
+    <a href="https://github.com/HawerPL" target="_blank">
+        <img src="https://github.com/HawerPL/yt-downloader/blob/master/images/dark-theme.png?raw=true" 
+        alt="Dark theme">
+    </a>
+</div>
 The UI supports changing the language and theme of the application.
-
+<div align="center">
+    <a href="https://github.com/HawerPL" target="_blank">
+        <img src="https://github.com/HawerPL/yt-downloader/blob/master/images/light-theme.png?raw=true" 
+        alt="Dark theme">
+    </a>
+</div>
 ## Getting Started
 
 To clone repository and install required libs use commands:
