@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid ""
+msgstr "Language: en\n"
+
+msgid "Language"
+msgstr "Język"
+
+msgid "Theme"
+msgstr "Motyw"
+
+msgid "Link to video"
+msgstr "Link do wideo"
+
+msgid "Get video info"
+msgstr "Pobierz informacje o wideo"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Publish date"
+msgstr "Data publikacji"
+
+msgid "Length"
+msgstr "Długość"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Views"
+msgstr "Wyświetlenia"
+
+msgid "Rating"
+msgstr "Ocena"
+
+msgid "Keywords"
+msgstr "Słowa kluczowe"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "audio"
+msgstr "audio"
+
+msgid "video"
+msgstr "wideo"
+
+msgid "ABR"
+msgstr "ABR"
+
+msgid "Resolution"
+msgstr "Rozdzielczość"
+
+msgid "Extension"
+msgstr "Rozszerzenie"
+
+msgid "Download"
+msgstr "Pobierz"

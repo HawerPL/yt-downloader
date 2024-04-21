@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid ""
+msgstr "Language: en\n"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Theme"
+msgstr "Theme"
+
+msgid "Link to video"
+msgstr "Link to video"
+
+msgid "Get video info"
+msgstr "Get video info"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Publish date"
+msgstr "Publish date"
+
+msgid "Length"
+msgstr "Length"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Views"
+msgstr "Views"
+
+msgid "Rating"
+msgstr "Rating"
+
+msgid "Keywords"
+msgstr "Keywords"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "audio"
+msgstr "audio"
+
+msgid "video"
+msgstr "video"
+
+msgid "ABR"
+msgstr "ABR"
+
+msgid "Resolution"
+msgstr "Resolution"
+
+msgid "Extension"
+msgstr "Extension"
+
+msgid "Download"
+msgstr "Download"
